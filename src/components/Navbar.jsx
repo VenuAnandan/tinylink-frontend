@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="nav-links">
         <Link to="/" className="nav-link">Dashboard</Link>
         <Link to="/add" className="nav-link">Add New</Link>
-        <p className="nav-link" onClick={()=>healthcheckfunction()}>Check DB Health</p>
+        <Link to="/" className="nav-link" onClick={()=>healthcheckfunction()}>Check DB Health</Link>
       </div>
     </nav>
   );
