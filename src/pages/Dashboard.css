@@ -1,0 +1,84 @@
+.dash-container {
+    padding: 24px;
+}
+
+.dash-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.link-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.link-card {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-info {
+    max-width: 70%;
+}
+
+.link-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.link-original {
+    font-size: 14px;
+    color: gray;
+}
+
+.short-url {
+    color: #2563eb;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-green {
+    background-color: #16a34a;
+}
+
+.btn-blue {
+    background-color: #2563eb;
+}
+
+@media (max-width: 600px) {
+    .link-card {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .link-info {
+        max-width: 100%;
+    }
+
+    .btn-group {
+        justify-content: center;
+        width: 100%;
+    }
+}
